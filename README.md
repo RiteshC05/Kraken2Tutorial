@@ -38,18 +38,17 @@ Run Kraken2
 Using Kraken 2 
 ---------------------------------------------------------
 1. To classify a set of sequences use the command :  kraken2 --db $dbname seqs.fa
-Options provided by Kraken2 :
-a. Multithreading - 
+2. Multithreading - 
   Usage : --threads num
-b. Quick Operation - Stops classification after first database hit instead of searching all l-mers in a sequence. 
+3. Quick Operation - Stops classification after first database hit instead of searching all l-mers in a sequence. 
   Usage: --quick
-c. Sequence filtering - Classified and unclassified data can be sent to a file for processing.              
+4. Sequence filtering - Classified and unclassified data can be sent to a file for processing.              
   Usage : --classified-out /--unclassified-out 
-d. Output redirection - Redirecting the output to a file. 
+5. Output redirection - Redirecting the output to a file. 
   Usage: --output <filename>
-e. FASTQ input - Specify the fastq option if input file is in FASTQ format. 
+6. FASTQ input - Specify the fastq option if input file is in FASTQ format. 
   Usage: --fastq-input
-f. Compressed input - Kraken can also handle compressed file formats.                                          
+7. Compressed input - Kraken can also handle compressed file formats.                                          
   Usage: --gzip-compressed/--bzip2-compressed
-g. Paired reads - Kraken2 is capable of handling paired read data. Rather than concatenating, provide this option to process noth files     Usage: --paired </filename1> </filename2>
+8. Paired reads - Kraken2 is capable of handling paired read data. Rather than concatenating, provide this option to process noth files     Usage: --paired </filename1> </filename2>
 
