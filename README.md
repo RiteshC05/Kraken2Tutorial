@@ -38,7 +38,7 @@ Run Kraken2
 Using Kraken 2 
 ---------------------------------------------------------
 1. To classify a set of sequences use the command :  kraken2 --db $dbname seqs.fa
-2. Options provided by Kraken2 :
+Options provided by Kraken2 :
 a. Multithreading - 
   Usage : --threads num
 b. Quick Operation - Stops classification after first database hit instead of searching all l-mers in a sequence. 
